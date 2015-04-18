@@ -1,0 +1,23 @@
+{
+    "title": "string",
+    "Description": "string",
+    "snippet": {
+        "key": "string",
+        "value": "string"
+    },
+    "images": [{
+        "src": "string",
+        "caption": "string"
+    }, {
+        "src": "string",
+        "caption": "string"
+    }],
+    "input": {
+        "type": "string",
+        "options": [{
+            "label": "string",
+            "checked": "boolean",
+            "restrict": "string"
+        }]
+    }
+}
