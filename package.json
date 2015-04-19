@@ -17,8 +17,6 @@
     "gulp-json-transform": "^0.2.0",
     "gulp-jsoncombine": "^1.0.2",
     "gulp-jsonlint": "^1.0.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-wrap": "^0.11.0",
     "merge-stream": "^0.1.7",
     "path": "^0.11.14"
   }
