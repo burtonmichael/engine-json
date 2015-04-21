@@ -1,0 +1,23 @@
+{
+    "title": "Text Color",
+    "parameter": "text",
+    "Description": "Specify the base color of the text within the document.",
+    "snippet": {
+        "key": "text",
+        "value": "333"
+    },
+    "images": [{
+        "src": "string",
+        "caption": "string"
+    }, {
+        "src": "string",
+        "caption": "string"
+    }],
+    "input": {
+        "type": "text",
+        "options": [{
+            "label": "Hexidecimal color",
+            "restrict": "color"
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Primary color",
+    "parameter": "primary",
+    "Description": "Specify the base color of the text within the document.",
+    "snippet": {
+        "key": "primary",
+        "value": "CE6257"
+    },
+    "images": [{
+        "src": "string",
+        "caption": "string"
+    }, {
+        "src": "string",
+        "caption": "string"
+    }],
+    "input": {
+        "type": "color",
+        "options": [{
+            "label": "Hexidecimal color"
+        }]
+    }
+}

@@ -1,5 +1,6 @@
 {
     "title": "Font size",
+    "parameter": "font-size",
     "Description": "Specify the base numeric value off of which to calculate the font (text) size.",
     "snippet": {
         "key": "font-size",
@@ -15,8 +16,7 @@
     "input": {
         "type": "text",
         "options": [{
-            "label": "Font size",
-            "restrict": "number"
+            "label": "Numerical value"
         }]
     }
 }
