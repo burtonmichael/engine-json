@@ -8,6 +8,7 @@ var jsonlint = require('gulp-jsonlint');
 var extend = require('gulp-extend');
 var concat = require('gulp-concat-json');
 var transform = require('gulp-json-transform');
+var wrap = require('gulp-wrap');
 
 var srcDir = './src/';
 var tempDir = './src/temp/';
@@ -43,10 +44,12 @@ gulp.task('combine:properties', ['clean:temp'], function() {
 		return gulp.src(path.join(srcDir, folder, '/**/*.json'))
 			.pipe(jsonlint())
 			.pipe(jsonlint.reporter())
-			.pipe(concat(folder + '.json'))
+		    .pipe(jsoncombine(folder + '.json',function(data){
+		    	return new Buffer(JSON.stringify(data));
+		    }))
 			.pipe(transform(function(data) {
 		        return {
-		            properties: data
+		            "properties": data
 		        };
 		    }))
 			.pipe(gulp.dest(tempDir));
