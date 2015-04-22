@@ -1,10 +1,10 @@
 {
-    "title": "Font size",
-    "parameter": "font-size",
-    "description": "Specify the base numeric value off of which to calculate the font (text) size.",
+    "title": "calendar",
+    "parameter": "Calendar",
+    "description": "Changes the number of months shown on the graphical calendar date picker.",
     "snippet": {
-        "key": "font-size",
-        "value": "11"
+        "key": "calendar",
+        "value": "2"
     },
     "images": [{
         "src": "img/font-size-default.jpg",
@@ -14,7 +14,8 @@
         "caption": "Using 'font-size=11'"
     }],
     "input": {
-        "type": "text",
+        "type": "number",
+        "default": "2",
         "options": [{
             "label": "Numerical value"
         }]

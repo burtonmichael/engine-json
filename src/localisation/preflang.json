@@ -1,7 +1,7 @@
 {
     "title": "Language",
     "parameter": "preflang",
-    "Description": "Set the language of the content witin the search engine and the following booking process.",
+    "description": "Set the language of the content witin the search engine and the following booking process.",
     "snippet": {
         "key": "preflang",
         "value": "en"
