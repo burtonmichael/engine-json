@@ -7,14 +7,15 @@
         "value": "en"
     },
     "images": [{
-        "src": "string",
-        "caption": "string"
+        "src": "/img/placeholder-1.jpg",
+        "caption": "Default"
     }, {
-        "src": "string",
-        "caption": "string"
+        "src": "/img/placeholder-2.jpg",
+        "caption": "Modified"
     }],
     "input": {
-        "type": "string",
+        "type": "select",
+        "restrict": "",
         "options": [{
                 "label": "en - English",
                 "value": "en"

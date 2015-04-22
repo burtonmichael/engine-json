@@ -7,16 +7,15 @@
         "value": "CE6257"
     },
     "images": [{
-        "src": "string",
-        "caption": "string"
+        "src": "/img/placeholder-1.jpg",
+        "caption": "Default"
     }, {
-        "src": "string",
-        "caption": "string"
+        "src": "/img/placeholder-2.jpg",
+        "caption": "Modified"
     }],
     "input": {
-        "type": "color",
-        "options": [{
-            "label": "Hexidecimal color"
-        }]
+        "type": "text",
+        "restrict": "color",
+        "default": "3d72b9"
     }
 }

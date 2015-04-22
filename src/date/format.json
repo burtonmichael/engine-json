@@ -7,17 +7,15 @@
         "value": "yy-mm-dd"
     },
     "images": [{
-        "src": "img/font-size-default.jpg",
+        "src": "/img/placeholder-1.jpg",
         "caption": "Default"
     }, {
-        "src": "img/font-size-default.jpg",
-        "caption": "Using 'font-size=11'"
+        "src": "/img/placeholder-2.jpg",
+        "caption": "Modified"
     }],
     "input": {
         "type": "text",
-        "default": "D d M y",
-        "options": [{
-            "label": "Numerical value"
-        }]
+        "restrict": "",
+        "default": "D d M y"
     }
 }

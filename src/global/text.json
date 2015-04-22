@@ -7,17 +7,15 @@
         "value": "333"
     },
     "images": [{
-        "src": "string",
-        "caption": "string"
+        "src": "/img/placeholder-1.jpg",
+        "caption": "Default"
     }, {
-        "src": "string",
-        "caption": "string"
+        "src": "/img/placeholder-2.jpg",
+        "caption": "Modified"
     }],
     "input": {
         "type": "text",
-        "options": [{
-            "label": "Hexidecimal color",
-            "restrict": "color"
-        }]
+        "restrict": "color",
+        "default": "333333"
     }
 }
