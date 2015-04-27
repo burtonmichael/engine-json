@@ -7,15 +7,15 @@
         "value": "11"
     },
     "images": [{
-        "src": "/img/placeholder-1.jpg",
+        "src": "img/placeholder-1.jpg",
         "caption": "Default"
     }, {
-        "src": "/img/placeholder-2.jpg",
+        "src": "img/placeholder-2.jpg",
         "caption": "Modified"
     }],
     "input": {
         "type": "text",
         "restrict": "number",
-        "default": "14"
+        "placeholder": "14"
     }
 }

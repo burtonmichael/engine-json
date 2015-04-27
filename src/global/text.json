@@ -7,15 +7,15 @@
         "value": "333"
     },
     "images": [{
-        "src": "/img/placeholder-1.jpg",
+        "src": "img/placeholder-1.jpg",
         "caption": "Default"
     }, {
-        "src": "/img/placeholder-2.jpg",
+        "src": "img/placeholder-2.jpg",
         "caption": "Modified"
     }],
     "input": {
         "type": "text",
         "restrict": "color",
-        "default": "333333"
+        "placeholder": "333333"
     }
 }

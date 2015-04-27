@@ -1,21 +1,21 @@
 {
-    "title": "calendar",
-    "parameter": "Calendar",
+    "title": "Calendar",
+    "parameter": "calendar",
     "description": "Changes the number of months shown on the graphical calendar date picker.",
     "snippet": {
         "key": "calendar",
         "value": "2"
     },
     "images": [{
-        "src": "/img/placeholder-1.jpg",
+        "src": "img/placeholder-1.jpg",
         "caption": "Default"
     }, {
-        "src": "/img/placeholder-2.jpg",
+        "src": "img/placeholder-2.jpg",
         "caption": "Modified"
     }],
     "input": {
         "type": "text",
         "restrict": "number",
-        "default": "2"
+        "placeholder": "2"
     }
 }

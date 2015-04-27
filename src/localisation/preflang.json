@@ -7,217 +7,218 @@
         "value": "en"
     },
     "images": [{
-        "src": "/img/placeholder-1.jpg",
+        "src": "img/placeholder-1.jpg",
         "caption": "Default"
     }, {
-        "src": "/img/placeholder-2.jpg",
+        "src": "img/placeholder-2.jpg",
         "caption": "Modified"
     }],
     "input": {
         "type": "select",
+        "placeholder": "",
         "restrict": "",
         "options": [{
-                "label": "en - English",
+                "label": "English - en",
                 "value": "en"
             },
 
             {
-                "label": "de - German",
+                "label": "German - de",
                 "value": "de"
             },
 
             {
-                "label": "fr - French",
+                "label": "French - fr",
                 "value": "fr"
             },
 
             {
-                "label": "es - Spanish",
+                "label": "Spanish - es",
                 "value": "es"
             },
 
             {
-                "label": "it - Italian",
+                "label": "Italian - it",
                 "value": "it"
             },
 
             {
-                "label": "he - Hebrew",
+                "label": "Hebrew - he",
                 "value": "he"
             },
 
             {
-                "label": "id - Indonesian",
+                "label": "Indonesian - id",
                 "value": "id"
             },
 
             {
-                "label": "my - Malaysian",
+                "label": "Malaysian - my",
                 "value": "my"
             },
 
             {
-                "label": "ca - Catalan",
+                "label": "Catalan - ca",
                 "value": "ca"
             },
 
             {
-                "label": "da - Danish",
+                "label": "Danish - da",
                 "value": "da"
             },
 
             {
-                "label": "ee - Eesti",
+                "label": "Eesti - ee",
                 "value": "ee"
             },
 
             {
-                "label": "ph - Filipino",
+                "label": "Filipino - ph",
                 "value": "ph"
             },
 
             {
-                "label": "hr - Hrvatski",
+                "label": "Hrvatski - hr",
                 "value": "hr"
             },
 
             {
-                "label": "lv - Latvija",
+                "label": "Latvija - lv",
                 "value": "lv"
             },
 
             {
-                "label": "lt - Lithuanian",
+                "label": "Lithuanian - lt",
                 "value": "lt"
             },
 
             {
-                "label": "hu - Hungarian",
+                "label": "Hungarian - hu",
                 "value": "hu"
             },
 
             {
-                "label": "nl - Dutch",
+                "label": "Dutch - nl",
                 "value": "nl"
             },
 
             {
-                "label": "no - Norwegian",
+                "label": "Norwegian - no",
                 "value": "no"
             },
 
             {
-                "label": "pl - Polish",
+                "label": "Polish - pl",
                 "value": "pl"
             },
 
             {
-                "label": "br - Brazilian Portuguese",
+                "label": "Brazilian Portuguese - br",
                 "value": "br"
             },
 
             {
-                "label": "pt - Portuguese",
+                "label": "Portuguese - pt",
                 "value": "pt"
             },
 
             {
-                "label": "ru - Russian",
+                "label": "Russian - ru",
                 "value": "ru"
             },
 
             {
-                "label": "ro - Romanian",
+                "label": "Romanian - ro",
                 "value": "ro"
             },
 
             {
-                "label": "sk - Slovak",
+                "label": "Slovak - sk",
                 "value": "sk"
             },
 
             {
-                "label": "sl - Slovenian",
+                "label": "Slovenian - sl",
                 "value": "sl"
             },
 
             {
-                "label": "rs - Serbian",
+                "label": "Serbian - rs",
                 "value": "rs"
             },
 
             {
-                "label": "fi - Finnish",
+                "label": "Finnish - fi",
                 "value": "fi"
             },
 
             {
-                "label": "sv - Swedish",
+                "label": "Swedish - sv",
                 "value": "sv"
             },
 
             {
-                "label": "tr - Turkish",
+                "label": "Turkish - tr",
                 "value": "tr"
             },
 
             {
-                "label": "vi - Vietnamese",
+                "label": "Vietnamese - vi",
                 "value": "vi"
             },
 
             {
-                "label": "is - Icelandic",
+                "label": "Icelandic - is",
                 "value": "is"
             },
 
             {
-                "label": "cs - Czech",
+                "label": "Czech - cs",
                 "value": "cs"
             },
 
             {
-                "label": "gr - Greek",
+                "label": "Greek - gr",
                 "value": "gr"
             },
 
             {
-                "label": "bg - Bulgarian",
+                "label": "Bulgarian - bg",
                 "value": "bg"
             },
 
             {
-                "label": "uk - Ukrainian",
+                "label": "Ukrainian - uk",
                 "value": "uk"
             },
 
             {
-                "label": "ar - Arabic",
+                "label": "Arabic - ar",
                 "value": "ar"
             },
 
             {
-                "label": "th - Thai",
+                "label": "Thai - th",
                 "value": "th"
             },
 
             {
-                "label": "ja - Japanese",
+                "label": "Japanese - ja",
                 "value": "ja"
             },
 
             {
-                "label": "zs - Chinese Simplified",
+                "label": "Chinese Simplified - zs",
                 "value": "zs"
             },
 
             {
-                "label": "zh - Chinese Traditional",
+                "label": "Chinese Traditional - zh",
                 "value": "zh"
             },
 
             {
-                "label": "ko - Korean",
+                "label": "Korean - ko",
                 "value": "ko"
             }
         ]
