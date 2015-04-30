@@ -9,8 +9,11 @@ var extend = require('gulp-extend');
 var concat = require('gulp-concat-json');
 var transform = require('gulp-json-transform');
 var wrap = require('gulp-wrap');
+var gutil = require('gulp-util');
 
 var srcDir = './src/';
+var baseDir = './src/base/';
+var catDir = './src/categories/';
 var tempDir = './src/temp/';
 var destDir = './dist/';
 
@@ -21,27 +24,46 @@ function getFolders(dir) {
         });
 }
 
-gulp.task('merge', ['combine:categories'], function() {
-    gulp.src([srcDir + '/categories.json', tempDir + '/properties.json'])
+gulp.task('merge', ['combine:base', 'clean:dest'], function() {
+    gulp.src([tempDir + '/base.json', tempDir + '/properties.json'])
         .pipe(extend('properties.json'))
         .pipe(gulp.dest(destDir));
 
     return del([tempDir]);
 });
 
-gulp.task('combine:categories', ['combine:properties', 'clean:properies'], function() {
+gulp.task('combine:base', ['combine:categories'], function() {
+    return gulp.src(baseDir + '/*.json')
+        .pipe(jsonlint())
+        .pipe(jsonlint.reporter())
+        .pipe(jsoncombine('base.json', function(data) {
+            return new Buffer(JSON.stringify(data));
+        }))
+        .pipe(transform(function(data) {
+            return {
+                "base": data
+            };
+        }))
+        .pipe(gulp.dest(tempDir));
+});
+
+gulp.task('combine:categories', ['combine:properties'], function() {
     return gulp.src(tempDir + '/*.json')
         .pipe(jsoncombine('properties.json', function(data) {
             return new Buffer(JSON.stringify(data));
+        }))
+        .pipe(transform(function(data) {
+            return {
+                "categories": data
+            };
         }))
         .pipe(gulp.dest(tempDir));
 });
 
 gulp.task('combine:properties', ['clean:temp'], function() {
-    var folders = getFolders(srcDir);
-
+    var folders = getFolders(catDir);
     var tasks = folders.map(function(folder) {
-        return gulp.src(path.join(srcDir, folder, '/**/*.json'))
+        return gulp.src(path.join(catDir, folder, '/**/*.json'))
             .pipe(jsonlint())
             .pipe(jsonlint.reporter())
             .pipe(jsoncombine(folder + '.json', function(data) {
@@ -63,7 +85,7 @@ gulp.task('clean:temp', function(cb) {
     del([tempDir], cb);
 });
 
-gulp.task('clean:properies', function(cb) {
+gulp.task('clean:dest', function(cb) {
     del([destDir], cb);
 });
 
