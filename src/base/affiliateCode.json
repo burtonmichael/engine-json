@@ -3,19 +3,13 @@
     "parameter": "affiliateCode",
     "description": "Changes the number of months shown on the graphical calendar date picker.",
     "snippet": {
-        "key": "calendar",
-        "value": "2"
+        "key": "affiliateCode",
+        "value": "code"
     },
-    "images": [{
-        "src": "img/placeholder-1.jpg",
-        "caption": "Default"
-    }, {
-        "src": "img/placeholder-2.jpg",
-        "caption": "Modified"
-    }],
+    "images": [],
     "input": {
         "type": "text",
-        "restrict": "number",
-        "placeholder": "2"
+        "restrict": "",
+        "placeholder": "Your affiliate code"
     }
 }

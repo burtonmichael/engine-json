@@ -14,8 +14,8 @@
         "caption": "Modified"
     }],
     "input": {
-        "type": "text",
+        "type": "color",
         "restrict": "color",
-        "placeholder": "333333"
+        "placeholder": "#333333"
     }
 }
