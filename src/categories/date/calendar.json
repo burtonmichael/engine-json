@@ -7,10 +7,10 @@
         "value": "2"
     },
     "images": [{
-        "src": "img/placeholder-1.jpg",
+        "src": "img/examples/calendar/default.png",
         "caption": "Default"
     }, {
-        "src": "img/placeholder-2.jpg",
+        "src": "img/examples/calendar/modified.png",
         "caption": "Modified"
     }],
     "input": {

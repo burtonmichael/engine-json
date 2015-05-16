@@ -6,13 +6,6 @@
         "key": "preflang",
         "value": "en"
     },
-    "images": [{
-        "src": "img/placeholder-1.jpg",
-        "caption": "Default"
-    }, {
-        "src": "img/placeholder-2.jpg",
-        "caption": "Modified"
-    }],
     "input": {
         "type": "select",
         "placeholder": "",

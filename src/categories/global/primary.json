@@ -7,10 +7,10 @@
         "value": "CE6257"
     },
     "images": [{
-        "src": "img/placeholder-1.jpg",
+        "src": "img/examples/primary/default.png",
         "caption": "Default"
     }, {
-        "src": "img/placeholder-2.jpg",
+        "src": "img/examples/primary/modified.png",
         "caption": "Modified"
     }],
     "input": {

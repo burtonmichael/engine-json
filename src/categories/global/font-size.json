@@ -7,10 +7,10 @@
         "value": "11"
     },
     "images": [{
-        "src": "img/placeholder-1.jpg",
+        "src": "img/examples/font-size/default.png",
         "caption": "Default"
     }, {
-        "src": "img/placeholder-2.jpg",
+        "src": "img/examples/font-size/modified.png",
         "caption": "Modified"
     }],
     "input": {
