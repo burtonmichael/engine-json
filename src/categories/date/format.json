@@ -1,7 +1,7 @@
 {
     "title": " Format",
     "parameter": "format",
-    "description": "Changes the format of the displayed date. Acceptable formats can be found here: http://api.jqueryui.com/datepicker/#utility-formatDate",
+    "description": "Changes the format of the displayed date. Acceptable formats can be found <a target='_blank' href='http://api.jqueryui.com/datepicker/#utility-formatDate'>here</a>.",
     "snippet": {
         "key": "format",
         "value": "yy-mm-dd"

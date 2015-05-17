@@ -1,0 +1,48 @@
+{
+    "title": "Hide modules",
+    "parameter": "hide-modules",
+    "description": "Hide sections of the engine to better suit the need of the website.",
+    "snippet": {
+        "key": "hide-modules",
+        "value": "powered"
+    },
+    "images": [{
+        "src": "img/examples/hide-modules/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/hide-modules/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "checkbox",
+        "options": [{
+            "label": "Header",
+            "value": "header"
+        },{
+            "label": "Search box",
+            "value": "search"
+        },{
+            "label": "Cars image",
+            "value": "cars"
+        },{
+            "label": "Supplier logos",
+            "value": "suppliers"
+        },{
+            "label": "Why Book With Us?",
+            "value": "why"
+        },{
+            "label": "Manage a booking",
+            "value": "manage"
+        },{
+            "label": "Popular destinations",
+            "value": "destinations"
+        },{
+            "label": "Powered by rentalcars",
+            "value": "powered"
+        },{
+            "label": "All",
+            "value": "all",
+            "exclusive": true
+        }]
+    }
+}
