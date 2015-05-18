@@ -42,7 +42,7 @@
         },{
             "label": "All",
             "value": "all",
-            "exclusive": true
+            "all": true
         }]
     }
 }
