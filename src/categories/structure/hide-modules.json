@@ -19,9 +19,6 @@
             "label": "Header",
             "value": "header"
         },{
-            "label": "Search box",
-            "value": "search"
-        },{
             "label": "Cars image",
             "value": "cars"
         },{
@@ -39,10 +36,6 @@
         },{
             "label": "Powered by rentalcars",
             "value": "powered"
-        },{
-            "label": "All",
-            "value": "all",
-            "all": true
         }]
     }
 }

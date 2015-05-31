@@ -1,0 +1,26 @@
+{
+    "title": "Free Test Search",
+    "parameter": "fts",
+    "description": "Hide sections of the engine to better suit the need of the website.",
+    "snippet": {
+        "key": "fts",
+        "value": "true"
+    },
+    "images": [{
+        "src": "img/examples/fts/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/fts/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "radio",
+        "options": [{
+            "label": "Enable",
+            "value": "true"
+        },{
+            "label": "Disable",
+            "value": "false"
+        }]
+    }
+}
