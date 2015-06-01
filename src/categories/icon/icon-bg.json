@@ -1,0 +1,21 @@
+{
+    "title": "Icon background",
+    "parameter": "icon-bg",
+    "description": "Modifies the background color of the icon within the panel header sections.",
+    "snippet": {
+        "key": "icon-bg",
+        "value": "E26A5C"
+    },
+    "images": [{
+        "src": "img/examples/icon-bg/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/icon-bg/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "#E26A5C"
+    }
+}

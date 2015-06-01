@@ -1,0 +1,21 @@
+{
+    "title": "Panel header background",
+    "parameter": "panel-head-bg",
+    "description": "Modifies the color of the background within the panel header sections.",
+    "snippet": {
+        "key": "panel-head-bg",
+        "value": "E26A5C"
+    },
+    "images": [{
+        "src": "img/examples/panel-head-bg/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/panel-head-bg/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "#E26A5C"
+    }
+}

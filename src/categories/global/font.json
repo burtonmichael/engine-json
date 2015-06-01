@@ -1,0 +1,48 @@
+{
+    "title": "Font",
+    "parameter": "font",
+    "description": "Import a font family from a selection of Google's most popular fonts.",
+    "snippet": {
+        "key": "font",
+        "value": "shared/lato"
+    },
+    "images": [{
+        "src": "img/examples/font/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/font/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "radio",
+        "default": "false",
+        "options": [{
+            "label": "Lato",
+            "value": "shared/lato"
+        },{
+            "label": "Montserrat",
+            "value": "shared/montserrat"
+        },{
+            "label": "Open Sans",
+            "value": "shared/open-sans"
+        },{
+            "label": "Oswald",
+            "value": "shared/oswald"
+        },{
+            "label": "PT Sans",
+            "value": "shared/pt-sans"
+        },{
+            "label": "Roboto",
+            "value": "shared/roboto"
+        },{
+            "label": "Source Sans Pro",
+            "value": "shared/source-sans-pro"
+        },{
+            "label": "Ubuntu",
+            "value": "shared/ubuntu"
+        },{
+            "label": "Disable",
+            "value": "false"
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Form background",
+    "parameter": "form-bg",
+    "description": "Modifies the background color of the form section.",
+    "snippet": {
+        "key": "form-bg",
+        "value": "E26A5C"
+    },
+    "images": [{
+        "src": "img/examples/form-bg/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/form-bg/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "E26A5C"
+    }
+}

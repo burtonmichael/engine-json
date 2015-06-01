@@ -1,0 +1,21 @@
+{
+    "title": "Scene text",
+    "parameter": "scene-text",
+    "description": "Changes the color of the text within the engine header.",
+    "snippet": {
+        "key": "scene-text",
+        "value": "F5D25D"
+    },
+    "images": [{
+        "src": "img/examples/scene-text/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/scene-text/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "#FFFFFF"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Border radii",
+    "parameter": "radius",
+    "description": "Specify the base numeric value off of which to calculate element border radii.",
+    "snippet": {
+        "key": "radius",
+        "value": "4"
+    },
+    "images": [{
+        "src": "img/examples/radius/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/radius/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "number",
+        "placeholder": "4"
+    }
+}

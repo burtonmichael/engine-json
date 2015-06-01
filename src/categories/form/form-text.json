@@ -1,0 +1,21 @@
+{
+    "title": "Form text",
+    "parameter": "form-text",
+    "description": "Modifies the color of the text within the form section.",
+    "snippet": {
+        "key": "form-text",
+        "value": "1B65A4"
+    },
+    "images": [{
+        "src": "img/examples/form-text/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/form-text/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "E26A5C"
+    }
+}

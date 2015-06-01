@@ -1,0 +1,21 @@
+{
+    "title": "Icon fill",
+    "parameter": "icon-fill",
+    "description": "Modifies the color of the icon within the panel header sections.",
+    "snippet": {
+        "key": "icon-fill",
+        "value": "E26A5C"
+    },
+    "images": [{
+        "src": "img/examples/icon-fill/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/icon-fill/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "#132339"
+    }
+}

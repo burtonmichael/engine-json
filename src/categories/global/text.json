@@ -1,5 +1,5 @@
 {
-    "title": "Text Color",
+    "title": "Text color",
     "parameter": "text",
     "description": "Specify the base color of the text within the document.",
     "snippet": {

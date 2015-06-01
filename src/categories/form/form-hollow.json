@@ -1,16 +1,16 @@
 {
-    "title": "Free text search",
-    "parameter": "fts",
-    "description": "Hide sections of the engine to better suit the need of the website.",
+    "title": "Form hollow",
+    "parameter": "form-hollow",
+    "description": "Hides the heading at the top of the search form.",
     "snippet": {
-        "key": "fts",
+        "key": "form-hollow",
         "value": "true"
     },
     "images": [{
-        "src": "img/examples/fts/default.png",
+        "src": "img/examples/form-hollow/default.png",
         "caption": "Default"
     }, {
-        "src": "img/examples/fts/modified.png",
+        "src": "img/examples/form-hollow/modified.png",
         "caption": "Modified"
     }],
     "input": {

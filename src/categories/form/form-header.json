@@ -1,21 +1,21 @@
 {
-    "title": "Free text search",
-    "parameter": "fts",
-    "description": "Hide sections of the engine to better suit the need of the website.",
+    "title": "Form header",
+    "parameter": "form-header",
+    "description": "Hides the heading at the top of the search form.",
     "snippet": {
-        "key": "fts",
-        "value": "true"
+        "key": "form-header",
+        "value": "false"
     },
     "images": [{
-        "src": "img/examples/fts/default.png",
+        "src": "img/examples/form-header/default.png",
         "caption": "Default"
     }, {
-        "src": "img/examples/fts/modified.png",
+        "src": "img/examples/form-header/modified.png",
         "caption": "Modified"
     }],
     "input": {
         "type": "radio",
-        "default": "false",
+        "default": "true",
         "options": [{
             "label": "Enable",
             "value": "true"

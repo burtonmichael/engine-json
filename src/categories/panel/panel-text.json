@@ -1,0 +1,21 @@
+{
+    "title": "Panel text",
+    "parameter": "panel-text",
+    "description": "Modifies the color of the text within the panel sections.",
+    "snippet": {
+        "key": "panel-text",
+        "value": "3D72B9"
+    },
+    "images": [{
+        "src": "img/examples/panel-text/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/panel-text/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "#3D72B9"
+    }
+}

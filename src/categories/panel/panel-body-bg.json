@@ -1,0 +1,21 @@
+{
+    "title": "Panel body background",
+    "parameter": "panel-body-bg",
+    "description": "Modifies the color of the background within the panel sections.",
+    "snippet": {
+        "key": "panel-body-bg",
+        "value": "E26A5C"
+    },
+    "images": [{
+        "src": "img/examples/panel-body-bg/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/panel-body-bg/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "color",
+        "placeholder": "#E26A5C"
+    }
+}

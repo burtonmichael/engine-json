@@ -1,0 +1,21 @@
+{
+    "title": "Scene image",
+    "parameter": "scene",
+    "description": "Changes the background image of the engine header. A full list of available scenes can be found <a target=\"_blank\" href=\"http://www.rentalcars.com/documentation/engine/scene/\">here</a>.",
+    "snippet": {
+        "key": "scene",
+        "value": "03"
+    },
+    "images": [{
+        "src": "img/examples/scene/default.png",
+        "caption": "Default"
+    }, {
+        "src": "img/examples/scene/modified.png",
+        "caption": "Modified"
+    }],
+    "input": {
+        "type": "text",
+        "restrict": "number",
+        "placeholder": "01"
+    }
+}
